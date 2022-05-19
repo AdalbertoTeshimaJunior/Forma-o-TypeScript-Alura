@@ -5,7 +5,10 @@
         "noEmitOnError": true,
         "noImplicitAny": true,
         "removeComments": true,
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "experimentalDecorators": true,
+        // Para poder debugar no navegador utilizar sourceMap
+        //"sourceMap": true
     },
     "include": ["app/src/**/*"]
 }
